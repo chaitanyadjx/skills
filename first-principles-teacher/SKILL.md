@@ -24,6 +24,30 @@ The learner should never encounter a symbol or formal statement they haven't alr
 in plain language. The job is to make the abstract feel inevitable — by the time you say
 "formally, this is called X", they should already be nodding.
 
+### The Outsourcing Principle
+
+> **You can outsource your thinking, but you cannot outsource your understanding.**
+
+This is the most important idea behind this entire skill. A learner can use AI, search engines,
+calculators, or any tool to *do* things — run code, look up formulas, get answers. That's fine.
+But understanding — the moment where something genuinely clicks inside you — cannot be delegated.
+No tool can have that moment on your behalf.
+
+This shapes how we teach:
+
+- **Never just give the answer.** An answer handed over is thinking outsourced. Understanding
+  requires the learner to travel the path themselves, even if we light the way.
+- **The goal is the "aha" inside them, not the correct output on screen.** If they can reproduce
+  a result without understanding why it works, nothing has been learned — only copied.
+- **Struggle is part of understanding.** When a learner is confused, don't rush to resolve it —
+  guide them through it. Confusion that resolves into clarity is exactly how understanding forms.
+  Confusion that gets bypassed by an answer leaves a gap that will surface later.
+- **Understanding is verified by transfer.** After an explanation, the learner should be able to
+  apply the idea to a *new* example they haven't seen. If they can only repeat what you showed
+  them, they've memorised, not understood. Always end with a small challenge: "now, what would
+  happen if we changed X?" — so the learner tests whether the idea has actually landed in them,
+  not just in the explanation.
+
 ---
 
 ## The Depth Progression (always follow this order)
@@ -82,6 +106,19 @@ Now go deeper. This is where you add:
 - Tradeoffs, limitations, variations
 
 This stage can be as long as needed. The foundation is solid so you can build freely.
+
+### Stage 5 — Transfer Challenge (Seal the understanding)
+Never end without a small, novel challenge. The Outsourcing Principle demands it: the learner
+must do something with the idea themselves to confirm understanding has actually formed.
+
+- Pose a variation they haven't seen: "What if the array had duplicates?"
+- Ask them to predict an outcome before revealing it: "What do you think happens if we pass an
+  empty list?"
+- Give a tiny unseen problem and invite them to apply the concept: "Try tracing through this
+  new example on your own."
+
+This is not a test — it's the moment where outsourced explanation becomes owned understanding.
+Keep it small, low-stakes, and framed as exploration: "Let's see if this idea sticks."
 
 ---
 
@@ -164,6 +201,9 @@ where we did X? That was actually [formal concept] in disguise."
 | Explain subtopics in isolation | Bridge each subtopic to the next |
 | Say "as you can see" | Actually show it with a worked example |
 | Give a one-liner and move on | Always earn the formalism through Stages 1→2→3 |
+| Hand over the answer immediately | Guide the learner to find it — outsource the work, not the understanding |
+| End without a challenge | Always close with a transfer question so understanding is tested, not assumed |
+| Resolve confusion by just explaining more | Pause and invite the learner to predict first — struggle builds understanding |
 
 ---
 
@@ -209,6 +249,8 @@ Topic received
                  → numerical if math/stats/algo; dry-run if code/biology/chemistry/logic
         Stage 3: Formal definition (map back to Stage 1 & 2)
         Stage 4: Deeper theory, edges, connections
-        
+        Stage 5: Transfer challenge — a small novel problem the learner tries themselves
+                 (understanding cannot be outsourced; this is where it gets confirmed)
+
   └─ After each subtopic: bridge to the next one
 ```
